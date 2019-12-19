@@ -1,0 +1,9 @@
+1-pip install virtualenv
+2-virtualenv venv
+3-django-admin startproject submarine
+4-python manage.py runserver
+5-set at setting.py Allowhost = ['*']
+6-double click ngrok
+7-ngrok http 8000
+8-copy url and send to your friend
+9-python manage.py startapp inventory
